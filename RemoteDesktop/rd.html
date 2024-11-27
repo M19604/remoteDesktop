@@ -186,8 +186,8 @@
     let pubnub;
     const setupPubNub = () => {
         pubnub = new PubNub({
-            publishKey: "pub-c-e563565a-6bb2-42cd-bd20-8b8471168882",
-            subscribeKey: "sub-c-85088414-144b-4122-b1fe-d677ce056c47",
+            publishKey: "pub-c-eab195de-34e5-400b-ac8b-2847005be490",
+            subscribeKey: "sub-c-36fc61b4-dcf5-4822-a614-76d8ac1fe08b",
             userId: `rdr-${id}`
         });
         pubnub.channel("rd").subscription().onMessage = (msg) => {
